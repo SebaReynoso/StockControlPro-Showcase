@@ -2,16 +2,37 @@ StockControl Pro — Intelligent Inventory Management System 📱📦
 
 📋 Descripción Ejecutiva
 StockControl Pro es una solución de grado empresarial diseñada para resolver la ineficiencia operativa en la cadena de suministro de PyMEs y grandes comercios. Desarrollado bajo la visión de UniverseAI para LexinCorp, el sistema trasciende el simple registro de datos, convirtiéndose en un asistente inteligente para la toma de decisiones estratégicas.
-![Dashboard Inventario](./assets/Inventario.png)
+
+<br>
+
+<p align="center">
+  <img src="./assets/Inventario.png" width="700" alt="Dashboard Principal">
+</p>
+
+<br>
 
 🚀 Innovación y Características Core
 Experiencia Nativa en Mobile & Desktop: Optimización "Mobile-First" con estética estilo iOS, permitiendo una transición fluida entre dispositivos.
 
 Escaneo Inteligente: Integración nativa con la cámara del dispositivo para lectura de códigos de barras y QR en tiempo real, eliminando el error humano en la carga.
-![Dashboard Inventario](./assets/CargaProducto.png)
+
+<br>
+
+<p align="center">
+  <img src="./assets/CargaProducto.png" width="700" alt="Dashboard Principal">
+</p>
+
+<br>
 
 Arquitectura Real-time & Offline-First: Sincronización instantánea mediante Supabase y operatividad total sin conexión a internet gracias a una implementación avanzada de Service Workers (PWA).
-![Dashboard Inventario](./assets/Registro.png)  
+
+<br>
+
+<p align="center">
+  <img src="./assets/Registro.png" width="700" alt="Dashboard Principal">
+</p>
+
+<br>
 
 Módulo de Inteligencia Operativa (En Desarrollo):
 
