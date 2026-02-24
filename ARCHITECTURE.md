@@ -1,5 +1,7 @@
 Arquitectura de Software — StockControl Pro 📱📦
+
 🏗️ Introducción
+
 StockControl Pro ha sido diseñado bajo una arquitectura Offline-First y Real-time, priorizando la alta disponibilidad de los datos y la fluidez de la experiencia de usuario en entornos industriales y comerciales exigentes. El sistema utiliza un stack moderno liderado por Supabase como Backend-as-a-Service (BaaS) y una lógica de Progressive Web App (PWA) para garantizar la operatividad continua, incluso en condiciones de conectividad nula.
 
 📊 Diagrama de Sistema (Arquitectura de Flujo)
