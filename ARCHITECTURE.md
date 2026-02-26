@@ -57,6 +57,6 @@ Servicios Externos: Resend/Nodemailer para alertas y jspdf para la capa de repor
 
 Propiedad Intelectual de LexinCorp
 
-Arquitectura diseñada por Sebastian Reynoso — CEO UniverseAI
+Arquitectura diseñada por Sebastian Reynoso — UniverseAI
 
 🌐 sebastianreynoso.dev

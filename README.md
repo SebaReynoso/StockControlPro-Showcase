@@ -1,12 +1,13 @@
 StockControl Pro — Intelligent Inventory Management System 📱📦
 
 📋 Descripción Ejecutiva
-StockControl Pro es una solución de grado empresarial diseñada para resolver la ineficiencia operativa en la cadena de suministro de PyMEs y grandes comercios. Desarrollado bajo la visión de UniverseAI para LexinCorp, el sistema trasciende el simple registro de datos, convirtiéndose en un asistente inteligente para la toma de decisiones estratégicas.
+
+StockControl Pro es una solución diseñada para resolver problemas operativos en la cadena de suministro de PyMEs y grandes comercios. Desarrollado bajo la visión de UniverseAI para LexinCorp, el sistema trasciende el simple registro de datos, convirtiéndose en un asistente inteligente para la toma de decisiones estratégicas.
 
 <br>
 
 <p align="center">
-  <img src="./assets/Inventario.png" width="700" alt="Dashboard Principal">
+  <img src="./assets/Inventario.png" width="600" alt="Dashboard Principal">
 </p>
 
 <br>
@@ -19,7 +20,7 @@ Escaneo Inteligente: Integración nativa con la cámara del dispositivo para lec
 <br>
 
 <p align="center">
-  <img src="./assets/CargaProducto.png" width="700" alt="Dashboard Principal">
+  <img src="./assets/CargaProducto.png" width="600" alt="Dashboard Principal">
 </p>
 
 <br>
@@ -29,7 +30,7 @@ Arquitectura Real-time & Offline-First: Sincronización instantánea mediante Su
 <br>
 
 <p align="center">
-  <img src="./assets/Registro.png" width="700" alt="Dashboard Principal">
+  <img src="./assets/Registro.png" width="600" alt="Dashboard Principal">
 </p>
 
 <br>
@@ -54,11 +55,15 @@ Este repositorio funciona como un Showcase Técnico. Debido a que StockControl P
 
 Para Reclutadores y Partners: Si desea realizar una revisión de código profunda para procesos de selección o discutir una demo comercial, por favor contácteme directamente para solicitar acceso temporal al repositorio privado.
 
+"Este proyecto nació de la necesidad de digitalizar comercios locales en Córdoba, transformando procesos manuales en una experiencia móvil fluida y eficiente."
+
 ✉️ Contacto
-Sebastian (Seba) Reynoso CEO & Fullstack Developer en UniverseAI 📍 Córdoba, Argentina
+Sebastian (Seba) Reynoso > Lead Fullstack Developer & Founder at UniverseAI. 
+
+📍 Córdoba, Argentina
 
 📧 Andalexreynoso@gmail.com
 
 🔗 LinkedIn / Mi Portfolio Personal
 
-Desarrollado con pasión por la tecnología y la eficiencia empresarial.
+Desarrollado con pasión por la tecnología.
