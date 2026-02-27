@@ -7,7 +7,7 @@ StockControl Pro ha sido diseñado bajo una arquitectura Offline-First y Real-ti
 📊 Diagrama de Sistema (Arquitectura de Flujo)
 Este diagrama describe la interacción entre la capa de cliente, la persistencia de datos y los servicios inteligentes de UniverseAI.
 
-Fragmento de código
+```mermaid
 graph TD
     User((Usuario/Escaneo)) --> PWA[PWA - Frontend React]
     PWA --> SW[Service Worker - Cache Stale-While-Revalidate]
@@ -18,8 +18,15 @@ graph TD
     DB --> AI[UniverseAI Layer - Predicción de Demanda]
     DB --> Serv[Servicios: Reportes PDF & Alertas Email]
     Serv --> User
+```
+
 💾 Persistencia y Seguridad (Supabase)
 La gestión de datos se realiza mediante una arquitectura relacional en PostgreSQL, optimizada con políticas de seguridad de Confianza Cero (Zero Trust).
+
+**Sincronización de Base de Datos (Esquema Actual)**
+El esquema de base de datos refleja la realidad operativa en Supabase:
+- **Tabla `productos`**: Contiene la definición de los artículos del inventario. La columna `categoria` es **obligatoria** (`NOT NULL`), asegurando un filtrado y organización coherente en el dashboard.
+- **Tabla `movimientos`**: Registra las entradas y salidas de stock. La columna de fecha se denomina **`created_at`** (no timestamp), garantizando precisión inmutable en la auditoría de cada transacción.
 
 Estrategia de Seguridad:
 Row Level Security (RLS): Implementamos políticas granulares donde el acceso a los datos está vinculado estrictamente al usuario_id del JWT, evitando cualquier riesgo de escalada de privilegios.
@@ -55,8 +62,8 @@ PWA: Vite PWA Plugin + Workbox.
 
 Servicios Externos: Resend/Nodemailer para alertas y jspdf para la capa de reportes.
 
-Propiedad Intelectual de LexinCorp
-
-Arquitectura diseñada por Sebastian Reynoso — UniverseAI
+Propiedad Intelectual
+LexinCorp es el **titular de la propiedad intelectual** de StockControl Pro.
+Arquitectura diseñada por **UniverseAI**, la firma consultora de IA.
 
 🌐 sebastianreynoso.dev
